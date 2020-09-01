@@ -13,14 +13,14 @@ import sys
 import sys 
   
   
-#print("This is the name of the program:", 
-      # sys.argv[0]) 
-#print("Number of elements including the name of the program:", 
-  #     len(sys.argv)) 
-#print("Number of elements excluding the name of the program:", 
-      #(len(sys.argv)-1)) 
-#print("Argument List:", 
-      # str(sys.argv)) 
+print("This is the name of the program:", 
+       sys.argv[0]) 
+print("Number of elements including the name of the program:", 
+       len(sys.argv)) 
+print("Number of elements excluding the name of the program:", 
+      (len(sys.argv)-1)) 
+print("Argument List:", 
+       str(sys.argv)) 
 
 
 # Print out the OS platform you're using:
@@ -45,10 +45,10 @@ import os
 # Print the current process ID
 # YOUR CODE HERE
 pid = os.getpid() 
-#print(pid)
+print(pid)
 # Print the current working directory (cwd):
 # YOUR CODE HERE
-#print(os.getcwd())
+print(os.getcwd())
 
 # Print out your machine's login name
 # YOUR CODE HERE
