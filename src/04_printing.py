@@ -14,4 +14,6 @@ z = "I like turtles!"
 
 # Use the 'format' string method to print the same thing
 
+ print("x is %d," %d x )
+
 # Finally, print the same thing using an f-string
