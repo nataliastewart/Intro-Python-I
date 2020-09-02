@@ -1,0 +1,3 @@
+Hello, my name is Natalia
+I am learning how to code Python
+Create this file for me.

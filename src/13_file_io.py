@@ -11,9 +11,29 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 # YOUR CODE HERE
 
+fr = open("foo.txt", "r")
+text = fr.read()
+print(text)
+fr.close()
+    
+
+
+
 # Open up a file called "bar.txt" (which doesn't exist yet) for
 # writing. Write three lines of arbitrary content to that file,
 # then close the file. Open up "bar.txt" and inspect it to make
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+
+fw = open("bar.txt", "w")
+fw.write('Hello, my name is Natalia\n')
+fw.write('I am learning how to code Python\n')
+fw.write('Create this file for me.\n')
+fw.close()
+
+print("-----------------------------")
+fr2 = open("bar.txt", "r")
+text = fr2.read()
+print(text)
+fr2.close()
