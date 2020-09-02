@@ -66,8 +66,12 @@ print(f3(8))     # Should print 9
 # key: baz, value: 12
 #
 # Note: Google "python keyword arguments".
+print("---------------------------------/f4/----------------------")
 
 # YOUR CODE HERE
+def f4(**items):
+    print(items)
+
 
 # Should print
 # key: a, value: 12
@@ -86,7 +90,7 @@ d = {
 }
 
 # How do you have to modify the f4 call below to make this work?
-f4(d)
+f4(**d)
 
 # *unpack the values separeted by comma/ unpack the list/ go one level deeper
 #** unpack the key and values pairs/ keep the key value pairs
